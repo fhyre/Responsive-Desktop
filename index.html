@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet"> 
+    <title>Responsive Desktop</title>
+</head>
+<body>
+    <div class="container">
+        <video autoplay loop muted>
+            <source src="media/particles.webm" type="video/webm"/>
+            <source src="media/particles.mp4" type="video/mp4"/>
+        </video>
+
+        <header>
+            <img class="nav-icons" src="images/wifi-white.svg" alt=""/>
+            <img class="nav-icons" src="images/signal-white.svg" alt=""/>
+            <img class="nav-icons" src="images/battery-white.svg" alt=""/>
+        </header>
+
+        <div class="window">
+            <div class="title-bar">
+                <h1>About</h1>
+                <img id="minimize-button" src="images/minimize-button.svg" alt=""/>
+                <img id="maximize-button" src="images/maximize-button.svg" alt=""/>
+                <img id="exit-button" src="images/exit-button.svg" alt=""/>
+                </div>
+
+            <div class="text-box">
+                <img id="star-logo" src="images/stars.svg" alt=""/>
+                <div class="text">
+                    <h1>Comet OS</h1>
+                    <p><span class="hardware-info">Processor ~</span> Starfall Core i9 @3.6 GHz</p>
+                    <p><span class="hardware-info">Memory ~</span> 128 GB 5333 MHz DDR4</p>
+                    <p><span class="hardware-info">User ~</span> cat </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="second-window-container">
+            <div id="second-window-flex-container">
+                <div class="window" id="second-window">
+                    <div class="title-bar">
+                        <h1>Image Viewer - Cat.png</h1>
+                        <img id="minimize-button" src="images/minimize-button.svg" alt=""/>
+                        <img id="maximize-button" src="images/maximize-button.svg" alt=""/>
+                        <img id="exit-button" src="images/exit-button.svg" alt=""/>
+                    </div>
+
+                    <div class="text-box">
+                        <img id="cat-vibin-photo" src="images/cat vibin.png" alt=""/>
+                    </div>
+                </div>
+
+                <div class="window" id="second-next-window">
+                    <div class="title-bar">
+                        <h1>Image Viewer - CatJam.gif</h1>
+                        <img id="minimize-button" src="images/minimize-button.svg" alt=""/>
+                        <img id="maximize-button" src="images/maximize-button.svg" alt=""/>
+                        <img id="exit-button" src="images/exit-button.svg" alt=""/>
+                    </div>
+
+                    <div class="text-box">
+                        <img src="images/catjam.gif" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dock">
+            <img class="dock-icons" id="icon1" src="images/firefox.svg" alt=""/>
+            <img class="dock-icons" id="icon2" src="images/messages.svg" alt=""/>
+            <img class="dock-icons" id="icon3" src="images/camera.svg" alt=""/>
+            <img class="dock-icons large-dock-ver" id="icon4" src="images/github.svg" alt=""/>
+            <img class="dock-icons large-dock-ver" id="icon5" src="images/instagram.svg" alt=""/>
+            <img class="dock-icons large-dock-ver" id="icon6" src="images/pinterest.svg " alt=""/>
+        </div>
+    </div>
+</body>
+</html>
